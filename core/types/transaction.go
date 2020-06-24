@@ -313,6 +313,12 @@ func (tx *Transaction) Serialization(sink *common.ZeroCopySink) {
 	sink.WriteBytes(tx.Raw)
 }
 
+// Serialize the Transaction
+func (tx *Transaction) Serialize(w io.Writer) error {
+	_, err := w.Write(tx.Raw)
+	return err
+}
+
 func (tx *Transaction) ToArray() []byte {
 	return common.SerializeToBytes(tx)
 }
