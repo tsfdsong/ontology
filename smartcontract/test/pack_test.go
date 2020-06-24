@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ontio/ontology/core/types"
-	"github.com/ontio/ontology/smartcontract"
-	"github.com/ontio/ontology/vm/neovm"
+	"github.com/tsfdsong/ontology/core/types"
+	"github.com/tsfdsong/ontology/smartcontract"
+	"github.com/tsfdsong/ontology/vm/neovm"
 )
 
 func TestPackCrash(t *testing.T) {

@@ -23,10 +23,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	comm "github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/p2pserver/common"
-	"github.com/ontio/ontology/p2pserver/message/types"
-	"github.com/ontio/ontology/p2pserver/peer"
+	comm "github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/p2pserver/common"
+	"github.com/tsfdsong/ontology/p2pserver/message/types"
+	"github.com/tsfdsong/ontology/p2pserver/peer"
 )
 
 // Conn is a net.Conn wrapper to do some clean up when Close.

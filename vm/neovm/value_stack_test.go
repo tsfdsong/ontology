@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ontio/ontology/vm/neovm/types"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/vm/neovm/types"
 )
 
 func TestValueStack_Count(t *testing.T) {

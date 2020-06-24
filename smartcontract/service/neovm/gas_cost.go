@@ -19,8 +19,8 @@
 package neovm
 
 import (
-	"github.com/ontio/ontology/errors"
-	vm "github.com/ontio/ontology/vm/neovm"
+	"github.com/tsfdsong/ontology/errors"
+	vm "github.com/tsfdsong/ontology/vm/neovm"
 )
 
 func StoreGasCost(gasTable map[string]uint64, engine *vm.Executor) (uint64, error) {

@@ -21,8 +21,8 @@ package types
 import (
 	"fmt"
 
-	"github.com/ontio/ontology/vm/neovm/constants"
-	"github.com/ontio/ontology/vm/neovm/errors"
+	"github.com/tsfdsong/ontology/vm/neovm/constants"
+	"github.com/tsfdsong/ontology/vm/neovm/errors"
 )
 
 const (

@@ -22,11 +22,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/core/types"
-	. "github.com/ontio/ontology/smartcontract"
-	"github.com/ontio/ontology/vm/neovm"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/core/types"
+	. "github.com/tsfdsong/ontology/smartcontract"
+	"github.com/tsfdsong/ontology/vm/neovm"
 )
 
 func TestEqualStackOverflow(t *testing.T) {

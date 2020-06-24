@@ -25,8 +25,8 @@ import (
 
 	"net"
 
-	"github.com/ontio/ontology/p2pserver/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/p2pserver/common"
 
 	"github.com/stretchr/testify/require"
 )

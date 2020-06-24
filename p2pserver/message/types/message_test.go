@@ -23,9 +23,9 @@ import (
 	"io"
 	"testing"
 
-	common2 "github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/p2pserver/common"
 	"github.com/stretchr/testify/assert"
+	common2 "github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/p2pserver/common"
 )
 
 func TestMsgHdrSerializationDeserialization(t *testing.T) {

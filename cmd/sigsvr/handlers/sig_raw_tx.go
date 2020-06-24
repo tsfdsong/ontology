@@ -23,11 +23,11 @@ import (
 	"encoding/json"
 
 	"github.com/ontio/ontology-crypto/keypair"
-	clisvrcom "github.com/ontio/ontology/cmd/sigsvr/common"
-	cliutil "github.com/ontio/ontology/cmd/utils"
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/core/types"
+	clisvrcom "github.com/tsfdsong/ontology/cmd/sigsvr/common"
+	cliutil "github.com/tsfdsong/ontology/cmd/utils"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/core/types"
 )
 
 type SigRawTransactionReq struct {

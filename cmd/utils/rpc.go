@@ -25,8 +25,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/ontio/ontology/common/config"
-	rpcerr "github.com/ontio/ontology/http/base/error"
+	"github.com/tsfdsong/ontology/common/config"
+	rpcerr "github.com/tsfdsong/ontology/http/base/error"
 )
 
 //JsonRpc version

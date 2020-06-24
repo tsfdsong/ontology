@@ -22,11 +22,11 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/smartcontract/event"
-	"github.com/ontio/ontology/smartcontract/service/native"
-	"github.com/ontio/ontology/smartcontract/service/native/utils"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/smartcontract/event"
+	"github.com/tsfdsong/ontology/smartcontract/service/native"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/utils"
 )
 
 type Errors struct {

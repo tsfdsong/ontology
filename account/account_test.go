@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ontio/ontology/core/types"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/core/types"
 )
 
 func TestNewAccount(t *testing.T) {

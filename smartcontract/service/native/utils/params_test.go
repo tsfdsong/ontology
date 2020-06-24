@@ -21,8 +21,8 @@ package utils
 import (
 	"testing"
 
-	"github.com/ontio/ontology/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
 )
 
 func TestIsNativeContract(t *testing.T) {

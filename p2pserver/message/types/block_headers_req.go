@@ -21,8 +21,8 @@ package types
 import (
 	"io"
 
-	"github.com/ontio/ontology/common"
-	comm "github.com/ontio/ontology/p2pserver/common"
+	"github.com/tsfdsong/ontology/common"
+	comm "github.com/tsfdsong/ontology/p2pserver/common"
 )
 
 type HeadersReq struct {

@@ -26,9 +26,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/vm/neovm/types"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/vm/neovm/types"
 )
 
 func randInt64() *big.Int {

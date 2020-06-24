@@ -24,16 +24,16 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/core/genesis"
-	"github.com/ontio/ontology/core/types"
-	"github.com/ontio/ontology/smartcontract/event"
-	"github.com/ontio/ontology/smartcontract/service/native"
-	"github.com/ontio/ontology/smartcontract/service/native/cross_chain/cross_chain_manager"
-	"github.com/ontio/ontology/smartcontract/service/native/global_params"
-	"github.com/ontio/ontology/smartcontract/service/native/ont"
-	"github.com/ontio/ontology/smartcontract/service/native/utils"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/core/genesis"
+	"github.com/tsfdsong/ontology/core/types"
+	"github.com/tsfdsong/ontology/smartcontract/event"
+	"github.com/tsfdsong/ontology/smartcontract/service/native"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/cross_chain/cross_chain_manager"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/global_params"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/ont"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/utils"
 )
 
 func InitLockProxy() {

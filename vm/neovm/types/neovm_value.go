@@ -27,11 +27,11 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/vm/crossvm_codec"
-	"github.com/ontio/ontology/vm/neovm/constants"
-	"github.com/ontio/ontology/vm/neovm/errors"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/vm/crossvm_codec"
+	"github.com/tsfdsong/ontology/vm/neovm/constants"
+	"github.com/tsfdsong/ontology/vm/neovm/errors"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	"fmt"
 
 	"github.com/ontio/ontology-crypto/keypair"
-	"github.com/ontio/ontology/common"
+	"github.com/tsfdsong/ontology/common"
 )
 
 const (

@@ -21,7 +21,7 @@ package states
 import (
 	"io"
 
-	"github.com/ontio/ontology/common"
+	"github.com/tsfdsong/ontology/common"
 )
 
 type WasmContractParam struct {

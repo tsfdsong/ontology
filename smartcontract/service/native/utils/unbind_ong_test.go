@@ -22,9 +22,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/common/constants"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/common/constants"
 )
 
 func TestCalcUnbindOng(t *testing.T) {

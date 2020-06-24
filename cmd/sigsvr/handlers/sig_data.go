@@ -21,9 +21,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	clisvrcom "github.com/ontio/ontology/cmd/sigsvr/common"
-	cliutil "github.com/ontio/ontology/cmd/utils"
-	"github.com/ontio/ontology/common/log"
+	clisvrcom "github.com/tsfdsong/ontology/cmd/sigsvr/common"
+	cliutil "github.com/tsfdsong/ontology/cmd/utils"
+	"github.com/tsfdsong/ontology/common/log"
 )
 
 type SigDataReq struct {

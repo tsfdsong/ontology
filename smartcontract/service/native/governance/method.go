@@ -24,12 +24,12 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/common/constants"
-	cstates "github.com/ontio/ontology/core/states"
-	"github.com/ontio/ontology/smartcontract/service/native"
-	"github.com/ontio/ontology/smartcontract/service/native/utils"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/common/constants"
+	cstates "github.com/tsfdsong/ontology/core/states"
+	"github.com/tsfdsong/ontology/smartcontract/service/native"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/utils"
 )
 
 func registerCandidate(native *native.NativeService, flag string) error {

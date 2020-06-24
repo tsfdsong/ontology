@@ -21,10 +21,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ontio/ontology/core/store/common"
-	"github.com/ontio/ontology/core/store/leveldbstore"
-	"github.com/ontio/ontology/core/store/overlaydb"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/core/store/common"
+	"github.com/tsfdsong/ontology/core/store/leveldbstore"
+	"github.com/tsfdsong/ontology/core/store/overlaydb"
 )
 
 func genRandKeyVal() (string, string) {

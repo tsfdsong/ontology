@@ -22,8 +22,8 @@ import (
 
 	"crypto/rand"
 
-	"github.com/ontio/ontology/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
 )
 
 func TestStorageKey_Deserialize_Serialize(t *testing.T) {

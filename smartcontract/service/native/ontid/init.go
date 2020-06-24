@@ -18,9 +18,9 @@
 package ontid
 
 import (
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/smartcontract/service/native"
-	"github.com/ontio/ontology/smartcontract/service/native/utils"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/smartcontract/service/native"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/utils"
 )
 
 func Init() {

@@ -21,17 +21,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/core/store"
-	ctypes "github.com/ontio/ontology/core/types"
-	"github.com/ontio/ontology/smartcontract/context"
-	"github.com/ontio/ontology/smartcontract/event"
-	"github.com/ontio/ontology/smartcontract/service/native"
-	"github.com/ontio/ontology/smartcontract/service/neovm"
-	"github.com/ontio/ontology/smartcontract/service/wasmvm"
-	"github.com/ontio/ontology/smartcontract/storage"
-	vm "github.com/ontio/ontology/vm/neovm"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/core/store"
+	ctypes "github.com/tsfdsong/ontology/core/types"
+	"github.com/tsfdsong/ontology/smartcontract/context"
+	"github.com/tsfdsong/ontology/smartcontract/event"
+	"github.com/tsfdsong/ontology/smartcontract/service/native"
+	"github.com/tsfdsong/ontology/smartcontract/service/neovm"
+	"github.com/tsfdsong/ontology/smartcontract/service/wasmvm"
+	"github.com/tsfdsong/ontology/smartcontract/storage"
+	vm "github.com/tsfdsong/ontology/vm/neovm"
 )
 
 const (

@@ -19,8 +19,8 @@
 package utils
 
 import (
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/common/constants"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/common/constants"
 )
 
 var (

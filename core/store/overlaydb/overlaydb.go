@@ -21,9 +21,9 @@ package overlaydb
 import (
 	"crypto/sha256"
 
-	comm "github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/core/store/common"
 	"github.com/syndtr/goleveldb/leveldb/util"
+	comm "github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/core/store/common"
 )
 
 type OverlayDB struct {

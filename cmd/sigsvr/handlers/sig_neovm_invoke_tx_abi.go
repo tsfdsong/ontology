@@ -21,11 +21,11 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	clisvrcom "github.com/ontio/ontology/cmd/sigsvr/common"
-	cliutil "github.com/ontio/ontology/cmd/utils"
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/log"
-	httpcom "github.com/ontio/ontology/http/base/common"
+	clisvrcom "github.com/tsfdsong/ontology/cmd/sigsvr/common"
+	cliutil "github.com/tsfdsong/ontology/cmd/utils"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/log"
+	httpcom "github.com/tsfdsong/ontology/http/base/common"
 )
 
 type SigNeoVMInvokeTxAbiReq struct {

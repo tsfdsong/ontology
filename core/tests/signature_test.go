@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/ontio/ontology-crypto/keypair"
-	"github.com/ontio/ontology/account"
-	"github.com/ontio/ontology/core/signature"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/account"
+	"github.com/tsfdsong/ontology/core/signature"
 )
 
 func TestSign(t *testing.T) {

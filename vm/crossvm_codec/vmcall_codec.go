@@ -21,7 +21,7 @@ package crossvm_codec
 import (
 	"bytes"
 
-	"github.com/ontio/ontology/common"
+	"github.com/tsfdsong/ontology/common"
 )
 
 //input byte array should be the following format

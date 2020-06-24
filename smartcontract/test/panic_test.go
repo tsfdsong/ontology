@@ -25,13 +25,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/core/types"
-	. "github.com/ontio/ontology/smartcontract"
-	neovm2 "github.com/ontio/ontology/smartcontract/service/neovm"
-	"github.com/ontio/ontology/vm/neovm"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/core/types"
+	. "github.com/tsfdsong/ontology/smartcontract"
+	neovm2 "github.com/tsfdsong/ontology/smartcontract/service/neovm"
+	"github.com/tsfdsong/ontology/vm/neovm"
 )
 
 func TestRandomCodeCrash(t *testing.T) {

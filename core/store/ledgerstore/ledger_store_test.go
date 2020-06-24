@@ -24,10 +24,10 @@ import (
 	"testing"
 
 	"github.com/ontio/ontology-crypto/keypair"
-	"github.com/ontio/ontology/account"
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/core/genesis"
+	"github.com/tsfdsong/ontology/account"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/core/genesis"
 )
 
 var testBlockStore *BlockStore

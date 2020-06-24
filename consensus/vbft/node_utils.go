@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/log"
-	vconfig "github.com/ontio/ontology/consensus/vbft/config"
-	"github.com/ontio/ontology/core/signature"
-	msgpack "github.com/ontio/ontology/p2pserver/message/msg_pack"
-	p2pmsg "github.com/ontio/ontology/p2pserver/message/types"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/log"
+	vconfig "github.com/tsfdsong/ontology/consensus/vbft/config"
+	"github.com/tsfdsong/ontology/core/signature"
+	msgpack "github.com/tsfdsong/ontology/p2pserver/message/msg_pack"
+	p2pmsg "github.com/tsfdsong/ontology/p2pserver/message/types"
 )
 
 func (self *Server) GetCurrentBlockNo() uint32 {

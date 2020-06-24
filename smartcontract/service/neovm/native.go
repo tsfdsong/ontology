@@ -21,10 +21,10 @@ package neovm
 import (
 	"fmt"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/smartcontract/service/native"
-	"github.com/ontio/ontology/smartcontract/states"
-	vm "github.com/ontio/ontology/vm/neovm"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/smartcontract/service/native"
+	"github.com/tsfdsong/ontology/smartcontract/states"
+	vm "github.com/tsfdsong/ontology/vm/neovm"
 )
 
 func NativeInvoke(service *NeoVmService, engine *vm.Executor) error {

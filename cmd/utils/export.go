@@ -25,7 +25,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/ontio/ontology/common/serialization"
+	"github.com/tsfdsong/ontology/common/serialization"
 )
 
 const (

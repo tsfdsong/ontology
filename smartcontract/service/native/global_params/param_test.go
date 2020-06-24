@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ontio/ontology/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
 )
 
 func TestParams_Serialize_Deserialize(t *testing.T) {

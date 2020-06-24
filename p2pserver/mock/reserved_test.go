@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/p2pserver/common"
-	"github.com/ontio/ontology/p2pserver/net/netserver"
-	p2p "github.com/ontio/ontology/p2pserver/net/protocol"
-	"github.com/ontio/ontology/p2pserver/peer"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/p2pserver/common"
+	"github.com/tsfdsong/ontology/p2pserver/net/netserver"
+	p2p "github.com/tsfdsong/ontology/p2pserver/net/protocol"
+	"github.com/tsfdsong/ontology/p2pserver/peer"
 )
 
 func TestReserved(t *testing.T) {

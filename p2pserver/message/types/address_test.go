@@ -22,9 +22,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/ontio/ontology/common"
-	comm "github.com/ontio/ontology/p2pserver/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
+	comm "github.com/tsfdsong/ontology/p2pserver/common"
 )
 
 func MessageTest(t *testing.T, msg Message) {

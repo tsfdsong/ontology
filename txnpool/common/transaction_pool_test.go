@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/core/payload"
-	"github.com/ontio/ontology/core/types"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/core/payload"
+	"github.com/tsfdsong/ontology/core/types"
 )
 
 var (

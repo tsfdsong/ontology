@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ontio/ontology/core/types"
-	. "github.com/ontio/ontology/smartcontract"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/core/types"
+	. "github.com/tsfdsong/ontology/smartcontract"
 )
 
 func TestInfiniteLoopCrash(t *testing.T) {

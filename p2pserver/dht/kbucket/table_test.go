@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ontio/ontology/p2pserver/common"
 	"github.com/scylladb/go-set/strset"
 	"github.com/stretchr/testify/require"
+	"github.com/tsfdsong/ontology/p2pserver/common"
 )
 
 func init() {

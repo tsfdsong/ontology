@@ -20,10 +20,10 @@ package utils
 import (
 	"fmt"
 
-	"github.com/ontio/ontology/common"
-	cstates "github.com/ontio/ontology/core/states"
-	"github.com/ontio/ontology/errors"
-	"github.com/ontio/ontology/smartcontract/service/native"
+	"github.com/tsfdsong/ontology/common"
+	cstates "github.com/tsfdsong/ontology/core/states"
+	"github.com/tsfdsong/ontology/errors"
+	"github.com/tsfdsong/ontology/smartcontract/service/native"
 )
 
 type LinkedlistNode struct {

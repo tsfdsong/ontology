@@ -30,9 +30,9 @@ import (
 	"math/bits"
 
 	"github.com/ontio/ontology-crypto/keypair"
-	"github.com/ontio/ontology/account"
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/core/types"
+	"github.com/tsfdsong/ontology/account"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/core/types"
 )
 
 var Difficulty = 18 //bit

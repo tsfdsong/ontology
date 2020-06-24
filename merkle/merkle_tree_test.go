@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ontio/ontology/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
 )
 
 func TestMerkleLeaf3(t *testing.T) {

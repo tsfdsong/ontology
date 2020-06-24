@@ -27,14 +27,14 @@ import (
 	"github.com/gosuri/uiprogress"
 	"github.com/urfave/cli"
 
-	"github.com/ontio/ontology/cmd/utils"
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/common/serialization"
-	"github.com/ontio/ontology/core/genesis"
-	"github.com/ontio/ontology/core/ledger"
-	"github.com/ontio/ontology/core/types"
+	"github.com/tsfdsong/ontology/cmd/utils"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/common/serialization"
+	"github.com/tsfdsong/ontology/core/genesis"
+	"github.com/tsfdsong/ontology/core/ledger"
+	"github.com/tsfdsong/ontology/core/types"
 )
 
 var ImportCommand = cli.Command{

@@ -23,13 +23,13 @@ import (
 	"testing"
 
 	"github.com/ontio/ontology-crypto/keypair"
-	"github.com/ontio/ontology/account"
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/core/signature"
-	"github.com/ontio/ontology/core/types"
-	"github.com/ontio/ontology/smartcontract"
-	svm "github.com/ontio/ontology/smartcontract/service/neovm"
-	vtypes "github.com/ontio/ontology/vm/neovm/types"
+	"github.com/tsfdsong/ontology/account"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/core/signature"
+	"github.com/tsfdsong/ontology/core/types"
+	"github.com/tsfdsong/ontology/smartcontract"
+	svm "github.com/tsfdsong/ontology/smartcontract/service/neovm"
+	vtypes "github.com/tsfdsong/ontology/vm/neovm/types"
 )
 
 func TestVerifySig(t *testing.T) {

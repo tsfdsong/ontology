@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ontio/ontology/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
 )
 
 func TestTestEnv(t *testing.T) {

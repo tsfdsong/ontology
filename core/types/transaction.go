@@ -25,10 +25,10 @@ import (
 	"io"
 
 	"github.com/ontio/ontology-crypto/keypair"
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/constants"
-	"github.com/ontio/ontology/core/payload"
-	"github.com/ontio/ontology/core/program"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/constants"
+	"github.com/tsfdsong/ontology/core/payload"
+	"github.com/tsfdsong/ontology/core/program"
 )
 
 const MAX_TX_SIZE = 1024 * 1024 // The max size of a transaction to prevent DOS attacks

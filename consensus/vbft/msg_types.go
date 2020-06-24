@@ -26,9 +26,9 @@ import (
 
 	"github.com/ontio/ontology-crypto/keypair"
 	"github.com/ontio/ontology-crypto/signature"
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/serialization"
-	vconfig "github.com/ontio/ontology/consensus/vbft/config"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/serialization"
+	vconfig "github.com/tsfdsong/ontology/consensus/vbft/config"
 )
 
 type MsgType uint8

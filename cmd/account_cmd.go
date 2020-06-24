@@ -26,11 +26,11 @@ import (
 
 	"github.com/ontio/ontology-crypto/keypair"
 	"github.com/ontio/ontology-crypto/signature"
-	"github.com/ontio/ontology/account"
-	"github.com/ontio/ontology/cmd/common"
-	"github.com/ontio/ontology/cmd/utils"
-	"github.com/ontio/ontology/common/password"
-	"github.com/ontio/ontology/core/types"
+	"github.com/tsfdsong/ontology/account"
+	"github.com/tsfdsong/ontology/cmd/common"
+	"github.com/tsfdsong/ontology/cmd/utils"
+	"github.com/tsfdsong/ontology/common/password"
+	"github.com/tsfdsong/ontology/core/types"
 	"github.com/urfave/cli"
 )
 

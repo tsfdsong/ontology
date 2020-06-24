@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/p2pserver/common"
-	p2p "github.com/ontio/ontology/p2pserver/net/protocol"
-	"github.com/ontio/ontology/p2pserver/peer"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/p2pserver/common"
+	p2p "github.com/tsfdsong/ontology/p2pserver/net/protocol"
+	"github.com/tsfdsong/ontology/p2pserver/peer"
 )
 
 type ReconnectPeerInfo struct {

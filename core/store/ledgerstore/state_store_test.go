@@ -22,9 +22,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/merkle"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/merkle"
 )
 
 func TestStateMerkleRoot(t *testing.T) {

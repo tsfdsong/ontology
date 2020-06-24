@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/errors"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/errors"
 )
 
 type VmType byte

@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"github.com/ontio/ontology-crypto/keypair"
-	"github.com/ontio/ontology/core/types"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/core/types"
 )
 
 func genAccountData() (*AccountData, *keypair.ProtectedKey) {

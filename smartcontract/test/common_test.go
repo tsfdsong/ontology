@@ -21,11 +21,11 @@ package test
 import (
 	"testing"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/core/types"
-	"github.com/ontio/ontology/smartcontract"
-	"github.com/ontio/ontology/vm/neovm"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/core/types"
+	"github.com/tsfdsong/ontology/smartcontract"
+	"github.com/tsfdsong/ontology/vm/neovm"
 )
 
 func TestConvertNeoVmTypeHexString(t *testing.T) {

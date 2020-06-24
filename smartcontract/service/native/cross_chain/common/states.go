@@ -20,7 +20,7 @@ package common
 import (
 	"fmt"
 
-	"github.com/ontio/ontology/common"
+	"github.com/tsfdsong/ontology/common"
 )
 
 type ToMerkleValue struct {

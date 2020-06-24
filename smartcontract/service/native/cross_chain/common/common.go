@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/log"
-	ctypes "github.com/ontio/ontology/core/types"
-	"github.com/ontio/ontology/errors"
-	"github.com/ontio/ontology/smartcontract/service/native"
-	"github.com/ontio/ontology/smartcontract/service/neovm"
-	ntypes "github.com/ontio/ontology/vm/neovm/types"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/log"
+	ctypes "github.com/tsfdsong/ontology/core/types"
+	"github.com/tsfdsong/ontology/errors"
+	"github.com/tsfdsong/ontology/smartcontract/service/native"
+	"github.com/tsfdsong/ontology/smartcontract/service/neovm"
+	ntypes "github.com/tsfdsong/ontology/vm/neovm/types"
 )
 
 func CrossChainNeoVMCall(this *native.NativeService, address common.Address, method string, args []byte,

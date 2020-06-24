@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/core/types"
-	"github.com/ontio/ontology/errors"
-	tc "github.com/ontio/ontology/txnpool/common"
-	vt "github.com/ontio/ontology/validator/types"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/core/types"
+	"github.com/tsfdsong/ontology/errors"
+	tc "github.com/tsfdsong/ontology/txnpool/common"
+	vt "github.com/tsfdsong/ontology/validator/types"
 )
 
 func TestWorker(t *testing.T) {

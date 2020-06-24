@@ -22,8 +22,8 @@ import (
 	"io"
 
 	"github.com/ontio/ontology-crypto/keypair"
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/errors"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/errors"
 )
 
 type ValidatorState struct {

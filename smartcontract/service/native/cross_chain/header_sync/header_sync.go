@@ -21,11 +21,11 @@ package header_sync
 import (
 	"fmt"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/smartcontract/service/native"
-	ccom "github.com/ontio/ontology/smartcontract/service/native/cross_chain/common"
-	"github.com/ontio/ontology/smartcontract/service/native/global_params"
-	"github.com/ontio/ontology/smartcontract/service/native/utils"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/smartcontract/service/native"
+	ccom "github.com/tsfdsong/ontology/smartcontract/service/native/cross_chain/common"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/global_params"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/utils"
 )
 
 const (

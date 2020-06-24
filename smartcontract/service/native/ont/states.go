@@ -19,8 +19,8 @@
 package ont
 
 import (
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/smartcontract/service/native/utils"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/utils"
 )
 
 // Transfers

@@ -20,8 +20,8 @@ package payload
 import (
 	"testing"
 
-	"github.com/ontio/ontology/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
 )
 
 func TestInvokeCode_Serialize(t *testing.T) {

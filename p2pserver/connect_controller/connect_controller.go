@@ -25,10 +25,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ontio/ontology/p2pserver/common"
-	"github.com/ontio/ontology/p2pserver/handshake"
-	"github.com/ontio/ontology/p2pserver/peer"
 	"github.com/scylladb/go-set/strset"
+	"github.com/tsfdsong/ontology/p2pserver/common"
+	"github.com/tsfdsong/ontology/p2pserver/handshake"
+	"github.com/tsfdsong/ontology/p2pserver/peer"
 )
 
 const INBOUND_INDEX = 0

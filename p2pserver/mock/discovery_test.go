@@ -22,17 +22,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/p2pserver/common"
-	"github.com/ontio/ontology/p2pserver/message/types"
-	msgTypes "github.com/ontio/ontology/p2pserver/message/types"
-	"github.com/ontio/ontology/p2pserver/net/netserver"
-	p2p "github.com/ontio/ontology/p2pserver/net/protocol"
-	"github.com/ontio/ontology/p2pserver/peer"
-	"github.com/ontio/ontology/p2pserver/protocols/bootstrap"
-	"github.com/ontio/ontology/p2pserver/protocols/discovery"
-	"github.com/ontio/ontology/p2pserver/protocols/utils"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/p2pserver/common"
+	"github.com/tsfdsong/ontology/p2pserver/message/types"
+	msgTypes "github.com/tsfdsong/ontology/p2pserver/message/types"
+	"github.com/tsfdsong/ontology/p2pserver/net/netserver"
+	p2p "github.com/tsfdsong/ontology/p2pserver/net/protocol"
+	"github.com/tsfdsong/ontology/p2pserver/peer"
+	"github.com/tsfdsong/ontology/p2pserver/protocols/bootstrap"
+	"github.com/tsfdsong/ontology/p2pserver/protocols/discovery"
+	"github.com/tsfdsong/ontology/p2pserver/protocols/utils"
 )
 
 func init() {

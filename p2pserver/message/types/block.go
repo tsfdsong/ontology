@@ -21,9 +21,9 @@ package types
 import (
 	"fmt"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/core/types"
-	comm "github.com/ontio/ontology/p2pserver/common"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/core/types"
+	comm "github.com/tsfdsong/ontology/p2pserver/common"
 )
 
 type Block struct {

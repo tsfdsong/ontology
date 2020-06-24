@@ -21,12 +21,12 @@ package test
 import (
 	"testing"
 
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/core/types"
-	"github.com/ontio/ontology/smartcontract"
-	"github.com/ontio/ontology/vm/neovm"
-	"github.com/ontio/ontology/vm/neovm/errors"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/core/types"
+	"github.com/tsfdsong/ontology/smartcontract"
+	"github.com/tsfdsong/ontology/vm/neovm"
+	"github.com/tsfdsong/ontology/vm/neovm/errors"
 )
 
 func TestHeight(t *testing.T) {

@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"github.com/blang/semver"
-	common2 "github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/p2pserver/common"
-	"github.com/ontio/ontology/p2pserver/message/types"
-	"github.com/ontio/ontology/p2pserver/peer"
+	common2 "github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/p2pserver/common"
+	"github.com/tsfdsong/ontology/p2pserver/message/types"
+	"github.com/tsfdsong/ontology/p2pserver/peer"
 )
 
 var HANDSHAKE_DURATION = 10 * time.Second // handshake time can not exceed this duration, or will treat as attack.

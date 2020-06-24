@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"testing"
 
-	ser "github.com/ontio/ontology/common/serialization"
 	"github.com/stretchr/testify/assert"
+	ser "github.com/tsfdsong/ontology/common/serialization"
 )
 
 func TestSourceSink(t *testing.T) {

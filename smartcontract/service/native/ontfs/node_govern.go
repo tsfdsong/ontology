@@ -19,11 +19,11 @@
 package ontfs
 
 import (
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/errors"
-	"github.com/ontio/ontology/smartcontract/service/native"
-	"github.com/ontio/ontology/smartcontract/service/native/ont"
-	"github.com/ontio/ontology/smartcontract/service/native/utils"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/errors"
+	"github.com/tsfdsong/ontology/smartcontract/service/native"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/ont"
+	"github.com/tsfdsong/ontology/smartcontract/service/native/utils"
 )
 
 func FsNodeRegister(native *native.NativeService) ([]byte, error) {

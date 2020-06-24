@@ -22,8 +22,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/ontio/ontology/common/serialization"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common/serialization"
 )
 
 func BenchmarkZeroCopySource(b *testing.B) {

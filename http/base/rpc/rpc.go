@@ -29,9 +29,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ontio/ontology/common/log"
-	"github.com/ontio/ontology/http/base/common"
-	berr "github.com/ontio/ontology/http/base/error"
+	"github.com/tsfdsong/ontology/common/log"
+	"github.com/tsfdsong/ontology/http/base/common"
+	berr "github.com/tsfdsong/ontology/http/base/error"
 )
 
 func init() {

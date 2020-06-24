@@ -23,11 +23,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ontio/ontology/account"
-	cmdcom "github.com/ontio/ontology/cmd/common"
-	"github.com/ontio/ontology/cmd/utils"
-	"github.com/ontio/ontology/common/config"
-	nutils "github.com/ontio/ontology/smartcontract/service/native/utils"
+	"github.com/tsfdsong/ontology/account"
+	cmdcom "github.com/tsfdsong/ontology/cmd/common"
+	"github.com/tsfdsong/ontology/cmd/utils"
+	"github.com/tsfdsong/ontology/common/config"
+	nutils "github.com/tsfdsong/ontology/smartcontract/service/native/utils"
 	"github.com/urfave/cli"
 )
 

@@ -19,11 +19,11 @@
 package wasmvm
 
 import (
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/common/config"
-	"github.com/ontio/ontology/core/payload"
-	"github.com/ontio/ontology/errors"
 	"github.com/ontio/wagon/exec"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/common/config"
+	"github.com/tsfdsong/ontology/core/payload"
+	"github.com/tsfdsong/ontology/errors"
 )
 
 func migrateContractStorage(service *WasmVmService, newAddress common.Address) error {

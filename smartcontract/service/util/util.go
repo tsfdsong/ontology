@@ -21,12 +21,12 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/core/utils"
-	"github.com/ontio/ontology/smartcontract/context"
-	neovms "github.com/ontio/ontology/smartcontract/service/neovm"
-	"github.com/ontio/ontology/vm/crossvm_codec"
-	"github.com/ontio/ontology/vm/neovm"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/core/utils"
+	"github.com/tsfdsong/ontology/smartcontract/context"
+	neovms "github.com/tsfdsong/ontology/smartcontract/service/neovm"
+	"github.com/tsfdsong/ontology/vm/crossvm_codec"
+	"github.com/tsfdsong/ontology/vm/neovm"
 )
 
 func BuildNeoVMParamEvalStack(params []interface{}) (*neovm.ValueStack, error) {

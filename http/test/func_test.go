@@ -25,11 +25,11 @@ import (
 	"testing"
 
 	"github.com/ontio/ontology-crypto/keypair"
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/core/types"
-	"github.com/ontio/ontology/merkle"
-	"github.com/ontio/ontology/vm/neovm"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/core/types"
+	"github.com/tsfdsong/ontology/merkle"
+	"github.com/tsfdsong/ontology/vm/neovm"
 )
 
 func TestMerkleVerifier(t *testing.T) {

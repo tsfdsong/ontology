@@ -22,11 +22,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ontio/ontology/account"
-	"github.com/ontio/ontology/cmd/utils"
-	"github.com/ontio/ontology/core/payload"
-	"github.com/ontio/ontology/core/store/ledgerstore"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/ontology/account"
+	"github.com/tsfdsong/ontology/cmd/utils"
+	"github.com/tsfdsong/ontology/core/payload"
+	"github.com/tsfdsong/ontology/core/store/ledgerstore"
 )
 
 func TestPreExecuteContractWasmDeploy(t *testing.T) {

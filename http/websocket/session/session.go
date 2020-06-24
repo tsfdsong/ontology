@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	cfg "github.com/ontio/ontology/common/config"
 	"github.com/pborman/uuid"
+	cfg "github.com/tsfdsong/ontology/common/config"
 )
 
 type TxHashInfo struct {

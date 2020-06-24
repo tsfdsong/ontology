@@ -24,11 +24,11 @@ import (
 
 	"github.com/ontio/ontology-crypto/keypair"
 	"github.com/ontio/ontology-crypto/signature"
-	clisvrcom "github.com/ontio/ontology/cmd/sigsvr/common"
-	"github.com/ontio/ontology/cmd/utils"
-	"github.com/ontio/ontology/common"
-	"github.com/ontio/ontology/core/types"
 	"github.com/stretchr/testify/assert"
+	clisvrcom "github.com/tsfdsong/ontology/cmd/sigsvr/common"
+	"github.com/tsfdsong/ontology/cmd/utils"
+	"github.com/tsfdsong/ontology/common"
+	"github.com/tsfdsong/ontology/core/types"
 )
 
 func TestSigMutilRawTransaction(t *testing.T) {
